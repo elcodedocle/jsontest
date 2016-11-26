@@ -2,24 +2,24 @@ package com.elcodedocle.jsontest;
 
 public class App {
 	
-	protected static Integer count = 1;
-	protected Integer id;
-	protected String category;
-	protected String title;
-	protected String description;
-	protected String developer;
-	protected String packageName;
-	protected String iconImageUrl;
-	protected String bgImageUrl;
-    
-    public static void incCount(){
-    	count++;
-    }
-    
-    public static Integer getCount(){
-    	return count;
-    }
-    
+	private static Integer count = 1;
+	private Integer id;
+	private String category;
+	private String title;
+	private String description;
+	private String developer;
+	private String packageName;
+	private String iconImageUrl;
+	private String bgImageUrl;
+	
+	public static void incCount(){
+		count++;
+	}
+	
+	public static Integer getCount(){
+		return count;
+	}
+	
 	public Integer getId() {
 		return id;
 	}
