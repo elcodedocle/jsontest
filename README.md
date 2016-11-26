@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/elcodedocle/jsontest.svg?branch=master)](https://travis-ci.org/elcodedocle/jsontest)
+
 JSONtest
 ========
 Demo for deploying and consuming a simple JSON RESTful service
